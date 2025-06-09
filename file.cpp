@@ -22,3 +22,7 @@ int main()
 
         outfile << baris << endl;  // Corrected output syntax
     }
+
+    outfile.close();  // Always good practice to close the file
+    
+    
