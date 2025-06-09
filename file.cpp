@@ -25,4 +25,6 @@ int main()
 
     outfile.close();  // Always good practice to close the file
     
-    
+    ifstream infile;
+
+   
