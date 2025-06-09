@@ -31,4 +31,6 @@ int main()
 
     cout<<endl <<">=  Membuka dan membaca file "<<endl;
 
-    
+    if (infile.is_open())
+    {
+        
