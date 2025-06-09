@@ -17,4 +17,5 @@ int main()
         cout << "Masukan baris ";
         getline(cin, baris);
 
-       
+        if (baris == "q")
+            break;
